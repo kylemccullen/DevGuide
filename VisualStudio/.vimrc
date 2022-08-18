@@ -1,4 +1,4 @@
-# %USERNAME%/.vimrc
+" %USERNAME%/.vimrc
 
 set number relativenumber
 set nu rnu
@@ -8,6 +8,7 @@ let mapleader=" "
 map K :vsc Edit.QuickInfo<CR>
 map gi :vsc Edit.GoToImplementation<CR>
 map gr :vsc Edit.FindAllReferences<CR>
+map ca :vsc Resharper_AltEnter<CR>
 map <leader>rn :vsc ReSharper.ReSharper_Rename<CR>
 
 map ]c :vsc GitDiffMargin.NextChange<CR>
